@@ -20,6 +20,8 @@ BAGEL (Benchmarking Animal knowledGe Expertise in Language models) is a closed-b
 
 **Evaluation code:** https://github.com/Patrickhshs/bagel
 
+**Paper:** https://arxiv.org/pdf/2604.16241
+
 **This dataset:** to be filled in after upload.
 
 <!-- Replace the line above with this dataset's page, for example:

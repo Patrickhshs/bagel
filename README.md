@@ -11,6 +11,8 @@ Also set HF_DATASET_ID in evaluate.py.
 
 **This repository:** https://github.com/Patrickhshs/bagel
 
+**Paper:** https://arxiv.org/pdf/2604.16241
+
 The dataset card to upload with the questions is `hf/README.md`. It links back here.
 
 ## What this measures

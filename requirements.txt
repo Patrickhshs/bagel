@@ -1,0 +1,4 @@
+datasets>=2.18
+# Optional, only for --model:
+# torch
+# transformers>=4.40

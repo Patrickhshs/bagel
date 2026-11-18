@@ -27,7 +27,7 @@ BAGEL (Benchmarking Animal knowledGe Expertise in Language models) is a closed-b
 https://huggingface.co/datasets/<namespace>/bagel
 -->
 
-Upload `bagel.jsonl` as the `test` split. The loader in the GitHub repository reads that split.
+This folder is the Hugging Face dataset: this card and `bagel.jsonl`. That file is the `test` split. The loader in the GitHub repository reads that split.
 
 ## Fields
 

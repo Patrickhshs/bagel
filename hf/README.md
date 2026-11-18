@@ -6,7 +6,7 @@ size_categories:
 - 1K<n<10K
 task_categories:
 - question-answering
-license: other
+license: cc-by-sa-4.0
 configs:
 - config_name: default
   data_files:
@@ -22,7 +22,6 @@ BAGEL (Benchmarking Animal knowledGe Expertise in Language models) is a closed-b
 
 **Paper:** https://arxiv.org/pdf/2604.16241
 
-**This dataset:** to be filled in after upload.
 
 <!-- Replace the line above with this dataset's page, for example:
 https://huggingface.co/datasets/<namespace>/bagel
@@ -55,4 +54,14 @@ Upload `bagel.jsonl` as the `test` split. The loader in the GitHub repository re
 
 Give a model only `question` and `options`. Do not include `provenance`, `answer`, or `difficulty` in the prompt. The overall score used in the paper is the unweighted mean of the three domain accuracies. The scoring script is in the GitHub repository linked above.
 
-Questions were written from English Wikipedia, Global Biotic Interactions, and animal-related bioRxiv preprints, then screened for incorrect or ambiguous gold labels. Article text, interaction tables, and preprint bodies are not included. A dataset license has not been assigned yet.
+Questions were written from English Wikipedia, Global Biotic Interactions, and animal-related bioRxiv preprints, then screened for incorrect or ambiguous gold labels. Article text, interaction tables, and preprint bodies are not included.
+
+## License
+
+The questions are released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Credit the sources when you reuse them:
+
+- Wikipedia items: the article title in `provenance.wikipedia_title`, and the Wikipedia text license (CC BY-SA 4.0).
+- GloBI items: Global Biotic Interactions and the original contributing datasets. GloBI's integrated data are available under CC BY 4.0 unless a source says otherwise.
+- bioRxiv items: the paper authors and `provenance.doi`.
+
+bioRxiv redistribution follows each article's own license. Before a public release, drop any item whose source paper is CC BY-NC, CC BY-ND, or not openly licensed. Those items cannot sit in this CC BY-SA set.

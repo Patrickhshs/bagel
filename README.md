@@ -2,7 +2,7 @@
 
 Code for the closed-book BAGEL evaluation. The questions are not stored in this repository. They will be released as a Hugging Face dataset.
 
-**Dataset:** to be filled in after upload.
+**Dataset:** [to be filled in after upload](https://huggingface.co/datasets/EarthSpeciesProject/BAGEL)
 
 <!-- Replace the line above with the dataset page, for example:
 https://huggingface.co/datasets/<namespace>/bagel

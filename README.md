@@ -15,7 +15,7 @@ Also set HF_DATASET_ID in evaluate.py.
 
 The dataset card to upload with the questions is `hf/README.md`. It links back here.
 
-The questions are released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Attribution requirements, including the bioRxiv per-article check, are in `hf/README.md`.
+The questions are released under [CC BY-ND 4.0]. Attribution requirements, including the bioRxiv per-article check, are in `hf/README.md`.
 
 ## What this measures
 
